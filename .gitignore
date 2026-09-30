@@ -1,0 +1,18 @@
+# Excel temporary files
+~$*.xlsx
+~$*.xlsm
+~$*.xlsb
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key
+*.pem
+credentials.*
+
+# Do not commit raw Bloomberg exports by default
+02_Data/Raw/Bloomberg/*
